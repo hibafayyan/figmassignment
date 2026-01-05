@@ -13,3 +13,13 @@ color: blue;}
 .tick{
     list-style-type:none;
 }
+
+
+.scale{
+    transition: transform 0.3s ease-in , box-shadow 0.3s ease-in-out;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #9ecaed;
+}
